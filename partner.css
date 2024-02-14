@@ -1,0 +1,95 @@
+body {
+    background-image:  url(img.jpg);
+    background-size: cover; /* or 'contain' based on your preference */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+p{
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: large;
+    font-weight: 600;
+    opacity: 0.9;
+}
+
+button{
+    cursor: pointer;
+}
+
+#dialog{
+    width:300px;
+}
+
+.right{
+    margin-left: 120px;
+}
+
+.pic1{
+    margin-left: 3vw;
+}
+
+#bocchi2 {
+    position: absolute;
+     left: 45%;
+      top: 511px;
+      
+      /* top: 521px;
+    left: 53%; */
+
+}
+
+.heading{
+    text-align: center;
+    font-size: 352px;
+    /* font-family: Candara, Oswald; */
+    font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pic {
+    display: block;
+    margin: 0 auto;
+    width: 25%;
+}
+
+    
+#bocchi1 {
+    position: fixed;
+    top: 521px;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    background-color: antiquewhite;
+}
+button {
+    height: 50px;
+    background-color: rgb(198, 177, 149);
+}
+
+@media (max-width:480px) {
+    .heading{
+        font-size: 55px;
+    }
+
+    .pic {
+        width: 75%;        
+    }
+
+    #bocchi1 {
+        top: 305px;
+        left: 65%;
+    width: 80px;
+    }
+
+    #bocchi2 {
+         left: 35%;
+         top: 295px;
+         width: 50px;
+    }
+
+}
